@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let timerInterval;
     let startTime;
     let showingSolution = false;
-
+    
     function possible(board, i, j, val) {
         for (let k = 0; k < 9; k++) {
             if (board[k][j] == val || board[i][k] == val) return false;
@@ -21,7 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return true;
     }
-
+    function goBack() {
+        console.log("ji");
+        window.location.href = '../../home.html';
+    }
     function solve(board) {
         for (let i = 0; i < 9; i++) {
             for (let j = 0; j < 9; j++) {
@@ -117,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function goToHome() {
-        window.location.href = 'home.html';
+        window.location.href = '../home.html';
     }
 
     function updateBoards() {

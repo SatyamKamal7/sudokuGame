@@ -14,16 +14,16 @@
     <div id="buttons">
         <button id="show-solution">Show Solution</button>
         <button id="reset-game">Reset</button>
-        <button id="go-to-home">Home</button>
+        <button onclick="goBack()" id="go-to-home" >Home</button>
         <button id="get-hint">Get Hint</button>
     </div>
 
     <div id="overlay"></div>
     <div id="popup">
         <p id="popup-message"></p>
-        <a href="home.html"><button >Back to home</button></a>
+        <button onclick="goBack()">Back to home</button>
     </div>
-
+   
     <script src="sudoku.js"></script>
 </body>
 </html>
