@@ -13,7 +13,7 @@ Welcome to the Sudoku Game! This is a web-based Sudoku game where players can en
 
 ### Demo
 
-You can play the game live [here](https://ritik1231.github.io/Sudoku_Solver/home.html).
+You can play the game live [here](https://SatyamKama7.github.io/sudokuGame/home.html).
 
 ### Usage
 
