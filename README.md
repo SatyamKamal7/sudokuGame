@@ -32,4 +32,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ### Credits
 
-	•	Developed by Ritik Bansal
+	•	Developed by Satyam Kamal.
